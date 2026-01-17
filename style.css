@@ -1,0 +1,34 @@
+/* --- GLOBAL (Mobile First) --- */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, nav, main, footer {
+    padding: 1rem;
+    border: 1px solid #ccc; /* Temporary borders to see the layout */
+}
+
+/* --- MEDIUM (Tablets / 768px) --- */
+@media (min-width: 768px) {
+    main {
+        background-color: #f4f4f4;
+    }
+}
+
+/* --- LARGE (Desktops / 1024px) --- */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1000px;
+        margin: auto;
+    }
+}
+
+/* --- XL (Large Screens / 1440px) --- */
+@media (min-width: 1440px) {
+    body {
+        font-size: 1.2rem;
+    }
+}
